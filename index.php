@@ -13,15 +13,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo Theme::src('img/favicon-16x16.png') ?>">
   <link rel="manifest" href="<?php echo Theme::src('img/site.webmanifest') ?>">
 
-  <?php echo Theme::css('css/bundle.min.css'); ?>
+  <!-- <?php echo Theme::css('css/bundle.min.css'); ?> -->
+  <?php echo Theme::css('css/normalize.min.css'); ?>
   <?php echo Theme::css('css/main.css') ?>
-
 
   <?php Theme::plugins('siteHead') ?>
 </head>
 
 <body>
-  <div class="main-container">
+  <div class="main-container" id="top">
     <?php Theme::plugins('siteBodyBegin'); ?>
     <?php include(THEME_DIR_PHP . 'header.php'); ?>
 
@@ -42,5 +42,4 @@
   <?php Theme::plugins('siteBodyEnd'); ?>
   </div>
 </body>
-
 </html>
