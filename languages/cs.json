@@ -1,0 +1,24 @@
+{
+  "theme-data": {
+    "name": "Black++",
+    "description": "Black theme."
+  },
+  "email": "E-mail",
+  "address": "info@plus-minus.com",
+  "phone": "Telefon",
+  "number": "+02-123-456-789",
+  "edit-article": "Editovat Článek",
+  "share": "Sdílet",
+  "search": "Hledat",
+  "search-placeholder": "Napište hledaný výraz",
+  "latest-posts": "Nejnovější články",
+  "follow-me": "Sledujte mě",
+  "powered-by": "Běží na",
+  "designed-by": "Motiv vytvořil",
+  "newer": "Předchozí",
+  "older": "Další",
+  "search-results-for": "Výsledky hledání pro",
+  "load-more-posts": "Načíst další články",
+  "nothing-found-for": "Nic nenalezeno pro",
+  "search-term-too-short": "Hledaný výraz je příliš krátký"
+}

@@ -1,0 +1,24 @@
+{
+  "theme-data": {
+    "name": "Black++",
+    "description": "Black theme."
+  },
+  "email": "E-mail",
+  "address": "info@plus-minus.com",
+  "phone": "Phone",
+  "number": "+02-123-456-789",
+  "edit-article": "Edit Article",
+  "share": "Share",
+  "search": "Search",
+  "search-placeholder": "Type to search",
+  "latest-posts": "Latest posts",
+  "follow-me": "Follow me",
+  "powered-by": "Powered by",
+  "designed-by": "Designed by",
+  "newer": "Previous",
+  "older": "Next",
+  "search-results-for": "Search results for",
+  "load-more-posts": "Load more posts",
+  "nothing-found-for": "Nothing found for",
+  "search-term-too-short": "Search term too short"
+}
