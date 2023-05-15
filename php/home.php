@@ -18,15 +18,15 @@
     <!-- social icons side -->
     <div class="social">
       <?php if (!empty(Theme::socialNetworks())): ?>
-        <h3 class="social__label">
+        <h2 class="social__label">
           <?php echo $L->get('Follow me') ?>
-        </h3>
+        </h2>
 
         <ul class="social__icons">
           <?php foreach (Theme::socialNetworks() as $key => $label): ?>
             <li>
               <a class="<?php echo $key ?>" href="<?php echo $site->{$key}(); ?>" target="_blank" rel="nofollow noreferrer"
-                data-toggle="tooltip" data-placement="top" data-original-title="<?php echo $label ?>">
+                aria-label="<?php echo $key ?>">
                 <i class="icon <?php echo 'fa-' . $key ?>" aria-hidden="true"></i>
               </a>
             </li>
@@ -38,9 +38,9 @@
     <!-- contacts bottom -->
     <div class="contacts">
       <div class="contact">
-        <h4 class="contact__title">
+        <h3 class="contact__title">
           <?php echo $L->get('Email') ?>
-        </h4>
+        </h3>
 
         <div class="contact__info">
           <?php echo $L->get('address') ?>
@@ -48,9 +48,9 @@
       </div>
 
       <div class="contact">
-        <h4 class="contact__title">
+        <h3 class="contact__title">
           <?php echo $L->get('Phone') ?>
-        </h4>
+        </h3>
 
         <div class="contact__info">
           <?php echo $L->get('number') ?>
@@ -76,7 +76,8 @@
         <article class="post">
           <a href="<?php echo $page->permalink(); ?>">
             <figure>
-              <img src="<?php echo ($page->coverImage() ? $page->coverImage() : Theme::src('img/default.svg')) ?>" />
+              <img src="<?php echo ($page->coverImage() ? $page->coverImage() : Theme::src('img/default.svg')) ?>"
+                alt="<?php echo $page->title() ?>" />
 
               <figcaption>
                 <h2>

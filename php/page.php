@@ -34,7 +34,7 @@
 
       <?php if ($page->category()): ?>
         <div class="post__meta__tags">
-          <a href="<?php echo DOMAIN_CATEGORIES . $page->categoryKey() ?>" rel="tag">
+          <a href="<?php echo DOMAIN_CATEGORIES . $page->categoryKey() ?>" aria-label="category" rel="tag">
             <?php echo $page->category() ?>
           </a>
         </div>
@@ -42,7 +42,7 @@
     </div>
 
     <img src="<?php echo ($page->coverImage() ? $page->coverImage() : Theme::src('img/default.svg')) ?>"
-      class="post__image" alt="<?php echo $page->title() ?>" />
+      class="post__image" alt="<?php echo $page->title() ?>" width="1000px" height="563px" />
 
     <div class="post__content">
       <?php echo $page->content(); ?>
@@ -82,7 +82,7 @@
           </span>
 
           <a href="mailto:?subject=<?php echo rawurlencode($page->title()) ?>&amp;body=<?php echo urlencode($page->permalink()) ?>"
-            rel="nofollow noreferrer">
+            rel="nofollow noreferrer" aria-label="email">
             <i class="icon fa-envelope"></i>
           </a>
         </div>

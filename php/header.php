@@ -4,7 +4,7 @@
     <div class="navigation__logo">
       <a href="<?php echo Theme::siteUrl() ?>" rel="home">
         <img src="<?php echo ($site->logo() ? $site->logo() : Theme::src('img/logo.png')) ?>"
-          alt="<?php echo $site->title() ?>">
+          alt="<?php echo $site->title() ?>" width="60px" height="60px">
       </a>
     </div>
 
@@ -28,7 +28,7 @@
           </li>
         <?php endforeach ?>
         <li>
-          <a href="/dtsearch">
+          <a href="/dtsearch" aria-label="search">
             <i class="icon fa-search"></i>
           </a>
         </li>
