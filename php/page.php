@@ -40,11 +40,8 @@
       <?php endif ?>
     </div>
 
-
     <img src="<?php echo ($page->coverImage() ? $page->coverImage() : Theme::src('img/default.svg')) ?>"
       class="post__image" alt="<?php echo $page->title() ?>" />
-
-
 
     <div class="post__content">
       <?php echo $page->content(); ?>
