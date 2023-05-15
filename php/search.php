@@ -1,5 +1,4 @@
 <?php
-
 $searchTerm = urldecode($url->parameter('search'));
 $searchTerm = Text::removeHTMLTags($searchTerm);
 $searchTerm = trim($searchTerm);
@@ -11,13 +10,14 @@ echo Theme::javascript('js/search.js');
 ?>
 
 <main id="content" class="container" role="main">
-
   <div class="search">
+    <!-- search form -->
     <form method="get">
       <input type="search" name="search" placeholder="<?php echo $L->get('search-placeholder') ?>"
         value="<?php echo $searchTerm; ?>" class="search__input" autocomplete="off" spellcheck="false" />
     </form>
 
+    <!-- search title -->
     <?php if ($searchTerm): ?>
       <h4 class="search__title">
         <?php echo $L->get('Search results for') ?> "
@@ -28,10 +28,12 @@ echo Theme::javascript('js/search.js');
       </h4>
     <?php endif; ?>
 
+    <!-- search results -->
     <div class="search__loop">
     </div>
   </div>
 
+  <!-- more results button -->
   <div class="more">
     <a href="#" id="load-posts" data-posts_per_page="6" class="more__button hide">
       <?php echo $L->get('Load more posts') ?>
