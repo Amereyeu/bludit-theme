@@ -855,10 +855,12 @@ footer a:active {
   font-weight: 400;
   outline: 0;
   padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
 }
 .more__button:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #1e90ff;
+  border-color: #1e90ff;
+  text-decoration: none;
 }
 
 .pagination {
@@ -882,10 +884,12 @@ footer a:active {
   font-weight: 400;
   outline: 0;
   padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
 }
 .pagination__previous__button:hover, .pagination__next__button:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #1e90ff;
+  border-color: #1e90ff;
+  text-decoration: none;
 }
 .pagination__numbers span {
   align-items: center;
@@ -1111,4 +1115,10 @@ iframe {
   background-size: 7px 14px;
   border-radius: 100%;
   border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.go-top a:link:hover,
+.go-top a:visited:hover {
+  color: #1e90ff;
+  border-color: #1e90ff;
 }/*# sourceMappingURL=main.css.map */
