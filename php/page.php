@@ -16,7 +16,8 @@
     </h1>
 
     <div class="post__meta">
-      <div class="post__meta__name">by
+      <div class="post__meta__name">
+        <?php echo $L->get('by') ?>
         <?php echo $page->user('nickname'); ?> -
       </div>
 

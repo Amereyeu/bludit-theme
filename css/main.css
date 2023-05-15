@@ -589,6 +589,11 @@ header .navigation__list ul a:hover, header .navigation__list ul a:active {
   position: relative;
   border-radius: 3px;
 }
+.container .post__meta__tags a:hover, .container .post__meta__tags a:active {
+  background: #1e90ff;
+  color: #fff;
+  text-decoration: none;
+}
 .container .post__meta__bottom {
   display: flex;
   justify-content: space-between;
@@ -747,6 +752,7 @@ header .navigation__list ul a:hover, header .navigation__list ul a:active {
 }
 .container .static-page .post__title,
 .container .static-page .post__meta,
+.container .static-page .post__image,
 .container .static-page .post__meta__bottom {
   display: none;
 }
