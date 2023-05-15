@@ -14,6 +14,7 @@
     <?php echo $L->get('Powered by'); ?> <a target="_blank" href="https://www.bludit.com">Bludit.com</a>
   </p>
 
+  <!-- go to top button -->
   <div class="go-top">
     <a class="smoothscroll" href="#top"></a>
   </div>
