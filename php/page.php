@@ -2,6 +2,7 @@
   <?php Theme::plugins('pageBegin'); ?>
   <article class="post <?php echo $page->isStatic() ? 'static-page' : ''; ?>">
 
+    <!-- edit article button -->
     <?php if ($login->isLogged()) if ($canEdit = checkRole(array('admin', 'editor'))): ?>
         <a href="<?php echo HTML_PATH_ADMIN_ROOT . 'edit-content/' . $page->slug() ?>" class="post__edit" target="_blank">
           <span>
@@ -11,10 +12,12 @@
         </a>
     <?php endif; ?>
 
+    <!-- title -->
     <h1 class="post__title">
       <?php echo $page->title(); ?>
     </h1>
 
+    <!-- meta information -->
     <div class="post__meta">
       <div class="post__meta__name">
         <?php echo $L->get('by') ?>
@@ -41,13 +44,16 @@
       <?php endif ?>
     </div>
 
+    <!-- main image -->
     <img src="<?php echo ($page->coverImage() ? $page->coverImage() : Theme::src('img/default.svg')) ?>"
       class="post__image" alt="<?php echo $page->title() ?>" width="1000px" height="563px" />
 
+    <!-- content -->
     <div class="post__content">
       <?php echo $page->content(); ?>
     </div>
 
+    <!-- tags and social share -->
     <div class="post__meta__bottom">
       <div class="post__meta__bottom__tags">
         <?php foreach ($page->tags(true) as $tagKey => $tagName): ?>
