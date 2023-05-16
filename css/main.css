@@ -956,7 +956,7 @@ iframe {
   transition: all 0.8s;
   position: fixed;
   bottom: 3rem;
-  right: 2rem;
+  right: 2rem;;
 }
 @media (min-width: 769px) {
   .go-top {

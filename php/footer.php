@@ -10,8 +10,8 @@
   <?php endif; ?>
 
   <p>
-    <?php echo $L->get('Designed by'); ?> <a target="_blank" href="https://amerey.eu">Amerey</a> |
-    <?php echo $L->get('Powered by'); ?> <a target="_blank" href="https://www.bludit.com">Bludit CMS</a>
+    <?php echo $L->get('designed-by'); ?> <a target="_blank" href="https://amerey.eu">Amerey</a> |
+    <?php echo $L->get('powered-by'); ?> <a target="_blank" href="https://www.bludit.com">Bludit CMS</a>
   </p>
 
   <!-- go to top button -->

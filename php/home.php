@@ -19,7 +19,7 @@
     <div class="social">
       <?php if (!empty(Theme::socialNetworks())): ?>
         <h2 class="social__label">
-          <?php echo $L->get('Follow me') ?>
+          <?php echo $L->get('follow-me') ?>
         </h2>
 
         <ul class="social__icons">
@@ -39,7 +39,7 @@
     <div class="contacts">
       <div class="contact">
         <h3 class="contact__title">
-          <?php echo $L->get('Email') ?>
+          <?php echo $L->get('email') ?>
         </h3>
 
         <div class="contact__info">
@@ -49,7 +49,7 @@
 
       <div class="contact">
         <h3 class="contact__title">
-          <?php echo $L->get('Phone') ?>
+          <?php echo $L->get('phone') ?>
         </h3>
 
         <div class="contact__info">
@@ -67,7 +67,7 @@
   <!-- posts -->
   <section class="posts" id="content">
     <h4 class="posts__title">
-      <?php echo $L->get('Latest posts') ?>
+      <?php echo $L->get('latest-posts') ?>
     </h4>
 
     <div class="posts__list">
@@ -105,7 +105,7 @@
       <div class="pagination__previous">
         <?php if (Paginator::showPrev()): ?>
           <a class="pagination__previous__button" href="<?php echo Paginator::previousPageUrl() ?>">
-            <?php echo $L->get('Newer'); ?>
+            <?php echo $L->get('newer'); ?>
           </a>
         <?php endif; ?>
       </div>
@@ -118,7 +118,7 @@
       <div class="pagination__next">
         <?php if (Paginator::showNext()): ?>
           <a class="pagination__next__button" href="<?php echo Paginator::nextPageUrl() ?>">
-            <?php echo $L->get('Older'); ?>
+            <?php echo $L->get('older'); ?>
           </a>
         <?php endif; ?>
       </div>

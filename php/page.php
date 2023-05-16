@@ -4,12 +4,12 @@
 
     <!-- edit article button -->
     <?php if ($login->isLogged()) if ($canEdit = checkRole(array('admin', 'editor'))): ?>
-        <a href="<?php echo HTML_PATH_ADMIN_ROOT . 'edit-content/' . $page->slug() ?>" class="post__edit" target="_blank">
-          <span>
-          <?php echo $L->get('Edit Article') ?>
-          </span>
-          <i class="icon fa-arrow-right"></i>
-        </a>
+      <a href="<?php echo HTML_PATH_ADMIN_ROOT . 'edit-content/' . $page->slug() ?>" class="post__edit" target="_blank">
+        <span>
+          <?php echo $L->get('edit-article') ?>
+        </span>
+        <i class="icon fa-arrow-right"></i>
+      </a>
     <?php endif; ?>
 
     <!-- title -->
