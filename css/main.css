@@ -580,7 +580,7 @@ header .navigation__list ul a:hover, header .navigation__list ul a:active {
   margin-left: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.08), 0 2px 4px rgba(255, 255, 255, 0.03);
-  color: #b3b3b3;
+  color: #000;
   display: inline-flex;
   font-size: 13px;
   font-weight: 400;
@@ -613,7 +613,7 @@ header .navigation__list ul a:hover, header .navigation__list ul a:active {
   background: #fff;
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.08), 0 2px 4px rgba(255, 255, 255, 0.03);
-  color: #b3b3b3;
+  color: #000;
   display: inline-flex;
   font-size: 13px;
   font-weight: 400;
