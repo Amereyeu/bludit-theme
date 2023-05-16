@@ -6,7 +6,7 @@ $searchTerm = htmlspecialchars($searchTerm);
 
 echo '<script>var uploadsFolder = "' . HTML_PATH_UPLOADS . '", searchTerm="' . $searchTerm . '", domainBase="' . DOMAIN_PAGES . '" ;</script>' . PHP_EOL;
 
-echo Theme::javascript('js/search.js');
+echo Theme::javascript('js/search-min.js');
 ?>
 
 <main id="content" class="container" role="main">
