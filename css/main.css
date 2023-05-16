@@ -543,6 +543,7 @@ header .navigation__list ul a:hover, header .navigation__list ul a:active {
 }
 .container .post__edit:hover {
   border: 1px solid #1e90ff;
+  text-decoration: none;
 }
 .container .post__title {
   font-size: 2.5rem;
@@ -956,7 +957,7 @@ iframe {
   transition: all 0.8s;
   position: fixed;
   bottom: 3rem;
-  right: 2rem;;
+  right: 2rem;
 }
 @media (min-width: 769px) {
   .go-top {
