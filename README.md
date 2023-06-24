@@ -2,6 +2,11 @@
 
 Black responsive theme with big background image.
 
+<p align="center">
+  <a href="https://github.com/Amereyeu/Markdown-snippets"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="GitHub license"></a>
+  <a href="https://ko-fi.com/amerey"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange" alt="Buy me a coffee"></a>
+</p>
+
 ## Demo
 
 - https://blog.amerey.eu
