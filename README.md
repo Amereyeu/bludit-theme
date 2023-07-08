@@ -27,3 +27,4 @@ Black responsive theme with big background image.
 ## Screenshot
 
 ![screenshot-Black++](screenshot.png)
+
